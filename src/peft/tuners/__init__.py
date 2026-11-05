@@ -26,6 +26,7 @@ from .fourierft import FourierFTConfig, FourierFTModel
 from .frod import FrodConfig, FrodModel
 from .glora import GloraConfig, GloraModel
 from .gralora import GraloraConfig, GraloraModel
+from .grt_lora import GRTLoraConfig, GRTLoraLayer, GRTLoraModel, GRTRotationalLoraAdapter
 from .hira import HiraConfig, HiraModel
 from .hra import HRAConfig, HRAModel
 from .ia3 import IA3Config, IA3Model
@@ -111,6 +112,10 @@ __all__ = [
     "GloraModel",
     "GraloraConfig",
     "GraloraModel",
+    "GRTLoraConfig",
+    "GRTLoraLayer",
+    "GRTLoraModel",
+    "GRTRotationalLoraAdapter",
     "HRAConfig",
     "HRAModel",
     "HiraConfig",

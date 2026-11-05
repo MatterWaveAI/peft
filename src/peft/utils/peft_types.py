@@ -103,6 +103,7 @@ class PeftType(str, enum.Enum):  # noqa: UP042
     SUPERTUNING = "SUPERTUNING"
     DEFT = "DEFT"
     PACA = "PACA"
+    GRT_LORA = "GRT_LORA"
 
 
 class TaskType(str, enum.Enum):  # noqa: UP042

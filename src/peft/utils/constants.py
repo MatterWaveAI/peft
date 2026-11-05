@@ -334,6 +334,12 @@ TRANSFORMERS_MODELS_TO_VBLORA_TARGET_MODULES_MAPPING = {
 
 TRANSFORMERS_MODELS_TO_UNILORA_TARGET_MODULES_MAPPING = TRANSFORMERS_MODELS_TO_LORA_TARGET_MODULES_MAPPING.copy()
 
+TRANSFORMERS_MODELS_TO_GRT_LORA_TARGET_MODULES_MAPPING = {
+    "grt": ["attention", "mixer", "ffn"],
+    "grt_vision": ["attention", "mixer", "ffn"],
+    "grt_vl": ["attention", "mixer", "ffn"],
+}
+
 TRANSFORMERS_MODELS_TO_OSF_TARGET_MODULES_MAPPING = {
     "llama": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "down_proj", "up_proj"],
     "llama4": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "down_proj", "up_proj"],
